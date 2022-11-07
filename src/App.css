@@ -1,0 +1,120 @@
+h1 { 
+  text-align: center;
+  position:relative;
+  bottom: 10%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box {
+  border: 4px solid #0d4343;
+  border-radius: 10px;
+  color:white;
+  box-shadow: 10px 10px 15px #1a1919;
+  text-shadow: 3px 2px 1px rgb(12, 11, 11);
+  font-weight: bold;
+  font-family: sans-serif;
+  width : 400px;
+  height: 550px;
+  margin : 50px auto;
+  padding : 50px;
+  z-index : 5;
+  background-color: 	#0d4343
+}
+.inptData{
+  margin-top:5px;
+  position:relative;
+  bottom: 10%;
+  color:white;
+}
+.inpt1{
+  width: 70%;
+  padding : 10px 0px 10px 15px;
+  background-color: rgba(0, 0, 0, 0.488);
+  border:1px solid white;
+  border-radius: 5px;
+  position:relative;
+  bottom: 10%;
+  color:white;
+}
+.btnAdd{
+  background-color: rgba(29, 131, 58, 0.38);
+  border: 1px solid #f4f4f4;
+  border-radius : 3px;
+  color : white;
+  padding:10px 5px 10px 5px;
+  position: relative;
+  left: 2%;
+}
+button{
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  color : white;
+  position: relative;
+  left:0.5%;
+  padding:2px;
+}
+button.btn{
+  background-color: #d0321d;
+  border: 1px solid #d0321d;
+  border-radius : 3px;
+  color : white;
+  padding:2px;
+  margin-right:10px;
+  float: right;
+}
+button.btn2{
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  border-radius : 3px;
+  color : white;
+  padding:2px;
+  margin-right:10px;
+  float: right;
+}
+
+ol{
+  text-align: left;
+  border:2px solid rgb(235, 229, 229);
+  border-radius: 5px;
+  padding : 5px 0px 5px 15px;
+  background-color: transparent;
+  position:relative;
+  bottom: 10%;
+}
+li{
+  display:inline;
+}
+
